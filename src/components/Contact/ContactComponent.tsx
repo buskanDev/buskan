@@ -42,11 +42,11 @@ const ContactComponent = () => {
             request.
           </p>
         </form>
-        <div className="flex flex-wrap items-center justify-center mt-4 text-lg md:text-xl lg:text-2xl">
-          <a href="/about" className="text-cyan-300 ml-4">
+        <div className="flex gap-2 flex-wrap items-center justify-center mt-4 text-lg md:text-xl lg:text-2xl">
+          <a href="/about" className="text-cyan-300">
             Learn More
           </a>
-          <div className="flex gap-2 ml-4 items-center">
+          <div className="flex gap-2 items-center">
             <FaWhatsapp size={20} />
             <a
               href="https://wa.me/919876543210"

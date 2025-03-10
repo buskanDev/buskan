@@ -16,9 +16,8 @@ export const ContactUs = () => {
             Reach Us ...
           </h1>
           <div className="text-lg md:text-xl lg:text-2xl">
-            <strong>Address:</strong>
-            {" "}
-             Alipurduar Junction, Alipurduar, West Bengal, India, 736123
+            <strong>Address:</strong> 108,Uttar jitpur, Ravindra pally, Alipuduar
+            , Alipurduar, West Bengal, India - 726123
             <br />
             <strong>Email:</strong>
             <a
@@ -36,7 +35,7 @@ export const ContactUs = () => {
               Call Us
             </a>
             <br />
-            <strong>Hours:</strong> Mon-Fri: 9:00 AM - 5:00 PM, Sat: 9:00 AM -
+            <strong>Contact Hours:</strong> Mon-Fri: 9:00 AM - 5:00 PM, Sat: 9:00 AM -
             6:00 PM, Sun: Closed
             <br />
           </div>

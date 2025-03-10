@@ -7,6 +7,9 @@ import SideBar from "./SideBar";
 export const Header = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  const close = ()=>{    
+    setIsMenuOpen(false);
+  }
 
   return (
     <div className="w-full fixed top-0 z-30 py-2 px-4 sm:px-8 md:px-12 lg:px-20 bg-black text-white flex justify-between items-center">
@@ -52,7 +55,7 @@ export const Header = () => {
         <Hamburger toggled={isMenuOpen} toggle={setIsMenuOpen}/>
       </div>
       {
-        isMenuOpen && <SideBar/>
+        isMenuOpen && <SideBar close={close} />
       }
     </div>
   );

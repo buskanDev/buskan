@@ -55,7 +55,7 @@ const AboutComponent = () => {
           elevate your brand.
         </p>
         <h1 className="text-4xl my-4">Our Services</h1>
-        <p className="mt-4 text-lg md:text-xl lg:text-2xl">
+        <div className="mt-4 text-lg md:text-xl lg:text-2xl">
           At BUSKAN, we offer a wide range of software development services to
           cater to different business needs. Our primary services include:
           <h1 className="text-2xl my-3">Website Development</h1>A website is the
@@ -82,9 +82,9 @@ const AboutComponent = () => {
           align with your business objectives. Whether it's CRM software,
           automation tools, or enterprise solutions, we build software that
           improves efficiency and productivity.
-        </p>
+        </div>
         <h1 className="text-4xl my-4">Why Choose BUSKAN?</h1>
-        <p className="mt-4 text-lg md:text-xl lg:text-2xl">
+        <div className="mt-4 text-lg md:text-xl lg:text-2xl">
           We understand that choosing the right software development partner is
           crucial for business success. Here is what sets us apart:
           <br />
@@ -102,9 +102,9 @@ const AboutComponent = () => {
           your business, ensuring long-term success.
           <br />✔ Dedicated Support: We provide post-launch support and
           maintenance to ensure your software runs smoothly without any issues.
-        </p>
+        </div>
         <h1 className="text-4xl my-4">Our Vision</h1>
-        <p className="mt-4 text-lg md:text-xl lg:text-2xl">
+        <div className="mt-4 text-lg md:text-xl lg:text-2xl">
           Our vision is to redefine software development services by offering
           reliable, innovative, and scalable solutions. We aim to become a
           leading technology partner for businesses worldwide, helping them
@@ -113,9 +113,9 @@ const AboutComponent = () => {
           Though we are a new startup, we have a big vision. We believe that
           with passion, dedication, and a relentless pursuit of excellence, we
           can make a significant impact in the tech industry.
-        </p>
+        </div>
         <h1 className="text-4xl my-4">Join Us on This Journey</h1>
-        <p className="mt-4 text-lg md:text-xl lg:text-2xl">
+        <div className="mt-4 text-lg md:text-xl lg:text-2xl">
           At BUSKAN, we are not just developing software; we are building
           digital experiences that drive success. Whether you need a website, an
           app, or a custom software solution, we are here to help you every step
@@ -123,7 +123,7 @@ const AboutComponent = () => {
           <br />
           Ready to transform your ideas into reality? Get in touch with us today
           and let us build something amazing together!
-        </p>
+        </div>
       </div>
     </main>
   );
