@@ -1,4 +1,4 @@
-import { FaPhone } from "react-icons/fa";
+import { FaMailBulk, FaWhatsapp } from "react-icons/fa";
 
 const ContactComponent = () => {
   return (
@@ -42,16 +42,21 @@ const ContactComponent = () => {
             request.
           </p>
         </form>
-        <div className="flex items-center justify-center mt-4 text-lg md:text-xl lg:text-2xl">
-          <button className="bg-cyan-700 text-white py-2 px-4 rounded-md">
-            Contact Us
-          </button>
-          <a href="#" className="text-cyan-300 ml-4">
+        <div className="flex flex-wrap items-center justify-center mt-4 text-lg md:text-xl lg:text-2xl">
+          <a href="/about" className="text-cyan-300 ml-4">
             Learn More
           </a>
-          <div className="flex gap-2 ml-4">
-            <FaPhone size={20} />
-            <p className="text-cyan-300"> +1-123-456-7890</p>
+          <div className="flex gap-2 ml-4 items-center">
+            <FaWhatsapp size={20} />
+            <a
+              href="https://wa.me/919876543210"
+              className="text-cyan-300 hover:text-cyan-400 duration-150"
+            >Connect</a>
+            <FaMailBulk size={20}/>
+            <a
+              href="mailto:buskan38@gmail.com"
+              className="text-cyan-300 hover:text-cyan-400 duration-150"
+            >Email</a>
           </div>
         </div>
       </div>

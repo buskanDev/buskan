@@ -1,5 +1,6 @@
 import { FaAddressCard } from "react-icons/fa";
 import { ContactUsForm } from "./ContactUsForm.tsx";
+import { MAIL_ID, PHONE_NO } from "../../utils/constants/contact.ts";
 
 export const ContactUs = () => {
   return (
@@ -16,12 +17,12 @@ export const ContactUs = () => {
           </h1>
           <div className="text-lg md:text-xl lg:text-2xl">
             <strong>Address:</strong>
-            123, Lorem Ipsum Dolor Sit Amet, 12345
+            {" "}
+             Alipurduar Junction, Alipurduar, West Bengal, India, 736123
             <br />
             <strong>Email:</strong>
             <a
-              href="mailto:
-            contact@example.com"
+              href={`mailto:${MAIL_ID}`}
               className="text-cyan-500 hover:text-cyan-600 duration-150 mx-1"
             >
               Mail Support
@@ -29,8 +30,7 @@ export const ContactUs = () => {
             <br />
             <strong>Phone:</strong>
             <a
-              href="tel:
-            +1234567890"
+              href={`tel:${PHONE_NO}`}
               className="text-cyan-500 hover:text-cyan-600 duration-150 mx-1"
             >
               Call Us

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ServicesComponent = () => {
   return (
     <div className="px-4 pt-10 sm:px-6 md:px-12 lg:px-24 text-white">
@@ -33,12 +35,12 @@ const ServicesComponent = () => {
           </p>
         </form>
         <div className="flex items-center justify-center mt-4 text-lg md:text-xl lg:text-2xl">
-          <button className="bg-cyan-700 text-white py-2 px-4 rounded-md">
+          <Link to={"/contact"} className="bg-cyan-700 text-white py-2 px-4 rounded-md">
             Contact Us
-          </button>
-          <a href="#" className="text-cyan-300 ml-4">
+          </Link>
+          <Link to={'/about'} className="text-cyan-300 ml-4">
             Learn More
-          </a>
+          </Link>
         </div>
       </div>
     </div>

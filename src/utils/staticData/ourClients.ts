@@ -1,19 +1,21 @@
-import pic from "../../assets/Images/client-demo.jpg"
+// import pic from "../../assets/Images/client-demo.jpg"
+import gouriEnterprise from "../../assets/Images/gouri-enterprise.jpg"
+import skInstitute from "../../assets/Images/sk-institute.jpg"
 
 export const items = [
     {
-        name : "Google",
-        logo : pic,
-        description : "lorem ipsum dolor sit amet, consecrate1",
+        name : "Gouri Enterprise",
+        logo : gouriEnterprise,
+        description : "",
     },
     {
-        name : "Amazon",
-        logo : pic,
-        description : "lorem ipsum dolor sit amet, consecrate2",
+        name : "Sk Institute",
+        logo : skInstitute,
+        description : "",
     },
-    {
-        name : "Microsoft",
-        logo : pic,
-        description : "lorem ipsum dolor sit amet, consecrate3",
-    },
+    // {
+    //     name : "Microsoft",
+    //     logo : pic,
+    //     description : "lorem ipsum dolor sit amet, consecrate3",
+    // },
 ]
